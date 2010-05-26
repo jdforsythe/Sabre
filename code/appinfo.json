@@ -1,0 +1,9 @@
+{
+	"id": "com.jdfsoftware.presabre",
+	"version": "0.4.1",
+	"vendor": "JDF Software",
+	"type": "web",
+	"main": "index.html",
+	"title": "Sabre",
+	"icon": "icon.png"
+}

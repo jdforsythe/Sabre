@@ -1,0 +1,217 @@
+/* splash scene */
+div#splashContainer {
+width:320px;
+height:452px; /* 480px - 28px for top bar -- adjusts for Pixi in the assistant file */
+background:url(../images/splash.png) center center no-repeat fixed;
+background-color:#000;
+z-index:1;
+}
+
+/* sabre scene */
+div#sabreContainer {
+position:fixed;
+top:0px;
+left:0px;
+bottom:0px;
+width:320px;
+/* height:480px; */
+background-color:#000;
+z-index:1;
+}
+
+div#flash {
+position:fixed;
+top:0px;
+left:0px;
+bottom:0px;
+width:320px;
+z-index:-1;
+}
+
+	.flash-blue {
+	background:url(../images/flash.png) bottom center no-repeat fixed #59ccfd;
+	}
+	
+	.flash-red {
+	background:url(../images/flash.png) bottom center no-repeat fixed #ff4d4d;
+	}
+	
+	.flash-yellow {
+	background:url(../images/flash.png) bottom center no-repeat fixed #ebfc8d;
+	}
+	
+	.flash-green {
+	background:url(../images/flash.png) bottom center no-repeat fixed #84e796;
+	}
+	
+	.flash-purple {
+	background:url(../images/flash.png) bottom center no-repeat fixed #e18ad3;
+	}
+
+div#blade {
+position:fixed;
+bottom:20px;
+left:137px;
+width:47px;
+height:375px;
+z-index:-1;
+}
+
+	.blueBld {
+	background:url(../images/blades/blue.png) 0px 0px no-repeat fixed transparent;
+	}
+
+	.redBld {
+	background:url(../images/blades/red.png) 0px 0px no-repeat fixed transparent;
+	}
+
+	.greenBld {
+	background:url(../images/blades/green.png) 0px 0px no-repeat fixed transparent;
+	}
+
+	.purpleBld {
+	background:url(../images/blades/purple.png) 0px 0px no-repeat fixed transparent;
+	}
+
+	.yellowBld {
+	background:url(../images/blades/yellow.png) 0px 0px no-repeat fixed transparent;
+	}
+
+div#hilt {
+position:fixed;
+bottom:0px;
+left:137px;
+width:47px;
+height:375px;
+z-index:4;
+}
+
+	.luke  {
+	background:url(../images/hilts/luke.png) 0px 0px no-repeat fixed transparent;
+	}
+
+	.quiGon {
+	background:url(../images/hilts/qui-gon.png) 0px 0px no-repeat fixed transparent;
+	}
+
+	.anakin {
+	background:url(../images/hilts/anakin.png) 0px 0px no-repeat fixed transparent;
+	}
+
+	.vader {
+	background:url(../images/hilts/vader.png) 0px 0px no-repeat fixed transparent;
+	}
+
+
+div#bladeButton {
+position:fixed;
+bottom:0px;
+left:0px;
+width:75px;
+height:75px;
+background:url(../images/bladeSelect.png) 0px 0px no-repeat fixed transparent;
+z-index:5;
+}
+
+div#hiltButton {
+position:fixed;
+bottom:0px;
+right:0px;
+width:75px;
+height:75px;
+background:url(../images/hiltSelect.png) 0px 0px no-repeat fixed transparent;
+z-index:5;
+}
+
+	.selectedButton {
+	border:1px solid #aaa;
+	}
+
+div#choiceOverlay {
+position:fixed;
+top:0px;
+left:0px;
+bottom:0px;
+width:320px;
+/* height:480px; */
+background:url(../images/choiceOverlay.png) 0px 0px repeat fixed transparent;
+z-index:-1;
+}
+
+	div.choiceMenu {
+	position:fixed;
+	bottom:75px;
+	left:0px;
+	width:320px;
+	background-color:#000;
+	}
+
+	div#bladeMenu {
+	height:64px;
+	z-index:-1;
+	}
+	
+		div.bladeChoice {
+		float:left;
+		width:62px;
+		height:62px;
+		border:1px solid #999;
+		}
+
+			div#choiceRed {
+			background-color:#f33;
+			left:0px;
+			}
+
+			div#choiceBlue {
+			background-color:#7df;
+			left:64px;
+			}
+
+			div#choiceGreen {
+			background-color:#5e7;
+			left:128px;
+			}
+
+			div#choiceYellow {
+			background-color:#df0;
+			left:192px;
+			}
+
+			div#choicePurple {
+			background-color:#d5c;
+			left:256px;
+			}
+
+	div#hiltMenu {
+	height:80px;
+	z-index:-1;
+	}
+
+		div.hiltChoice {
+		float:left;
+		width:78px;
+		height:78px;
+		border:1px solid #999;
+		}
+
+
+			div#choiceLuke {
+			background:url(../images/hilts/luke.png) center -295px no-repeat fixed transparent;
+			left:0px;
+			}
+
+			div#choiceQuiGon {
+			background:url(../images/hilts/qui-gon.png) center -295px no-repeat fixed transparent;
+			left:800px;
+			}
+
+			div#choiceAnakin {
+			background:url(../images/hilts/anakin.png) center -295px no-repeat fixed transparent;
+			left:160px;
+			}
+
+			div#choiceVader {
+			background:url(../images/hilts/vader.png) center -295px no-repeat fixed transparent;
+			left:240px;
+			}
