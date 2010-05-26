@@ -452,8 +452,7 @@ SabreAssistant.prototype.doUpdateCheck = function() {
 	Mojo.Log.info("puchk: Checking for updates...");
 
 	// URL to the app details page for your app
-	//var url = "http://developer.palm.com/webChannel/index.php?packageid=" + Mojo.Controller.appInfo.id;
-	var url = "http://developer.palm.com/webChannel/index.php?packageid=com.jdfsoftware.tuneyourguitarpro";
+	var url = "http://developer.palm.com/webChannel/index.php?packageid=" + Mojo.Controller.appInfo.id;
 	
 	// do AJAX request
 	var request = new Ajax.Request(url, {
