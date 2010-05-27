@@ -5,7 +5,7 @@ SplashAssistant.prototype.setup = function() {
 
 	// test whether we're on Pixi (app is defaulted to Pre 320x480) and change div size
 	if (Mojo.Environment.DeviceInfo.screenHeight < 480) {
-		$("splash-container").style.height = "372px"; // 400px - 28px for top bar
+		$("splashContainer").style.height = "372px"; // 400px - 28px for top bar
 	}
 
 	// bind screenTap
